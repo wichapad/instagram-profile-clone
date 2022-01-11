@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <!-- profile-section -->
+    <section class="profile-area">
+        <div class="container">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="https://scontent.fbkk2-6.fna.fbcdn.net/v/t1.6435-9/80288952_2608084769268817_3543776540972023808_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG7T-tDKW5i6vqMavy4lQYN8jICV92h9p_yMgJX3aH2n8MdOL5_FSl9YxQbN5RgFJmxB2_mRjCoL-QpdLAIj4Tm&_nc_ohc=GcTUXDptzwIAX90XYS9&_nc_ht=scontent.fbkk2-6.fna&oh=00_AT9NFmcOXszRjFv1xu81s8sekXrRuqfsiz8EDYvkZpSBUw&oe=62048B0C" alt="">
+                </div>
+                <div class="profile-info">
+                    <div class="profile-info-top">
+                        <h1>NOAH</h1>
+                        <a href="#" class="edit">แก้ไขโปรไฟล์</a>
+                        <a href="" class="gear"><i class="fas fa-cog"></i></a>
+                    </div>
+                    <div class="profile-info-center">
+                        <span><strong>500</strong> โพสต์</span>
+                        <span>ผู้ติดตาม<strong>640</strong> คน</span>
+                        <span>กำลังติดตาม<strong>500</strong> คน</span>
+                    </div>
+                    <div class="profile-info-bottom">
+                        <strong>Wichapad</strong>
+                        <br>
+                        <p>Freelance Web Developer <br>
+                        รับทำเว็บไซค์ | Tel.123 456 789</p>
+                        <a href="#">noah.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tabs-section -->
+    <section class="tabs-area">
+        <div class="container">
+            <div class="tabs">
+                <div onclick="switchTab(event, 'tb_1')" class="tab-item active">
+                    <i class="fas fa-th"></i><strong>โพสต์</strong>
+                </div>
+                <div onclick="switchTab(event, 'tb_2')" class="tab-item">
+                    <i class="fas fa-tv"></i><strong>IGTV</strong>
+                </div>
+                <div onclick="switchTab(event, 'tb_3')" class="tab-item">
+                    <i class="far fa-bookmark"></i><strong>บันทึกไว้</strong>
+                </div>
+                <div onclick="switchTab(event, 'tb_4')" class="tab-item">
+                    <i class="fas fa-user-tag"></i><strong>มีผู้แท็ก</strong>
+                </div>
+            </div>
+            <!-- section gallery -->
+            <div class="tabs-content">
+                <div id="tb_1" class="tabs_content-items">
+                    <div class="gallery-grid">
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                        </div>
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641762255897-7962d8e668e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+                        </div>
+
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641810780723-8bc471f87245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641763770805-f62250258b7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641762255237-e0d6edc53629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+                        </div>
+                        
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641744787573-47239ffa4103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641754179550-811621f2b70d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1638913658179-18c9a9c943f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+                        
+                        <div class="grid-img">
+                            <div class="grid-img-icons">
+                                <span><i class="fas fa-heart"></i> 12</span>
+                                <span><i class="fas fa-comment"></i>5</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1641761612081-784c180cae2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tb_2" class="tabs_content-items tb_2">
+                    <i class="fas fa-tv"></i>
+                    <h1>เริ่มแชร์ไปยัง IGTV</h1>
+                    <p>สร้างช่องของคุณเองเพื่อเริ่มแชร์วิดีโอแบบยาวในแนวตั้งกับ <br> กับกลุ่มเป้าหมายบน Instagram</p>
+                    <a href="#" class="tb_2-btn">เริ่มต้นใช้งาน</a>
+                </div>
+
+                <div id="tb_3" class="tabs_content-items tb_3">
+                    เฉพาะคุณเท่านั้นที่สามารถดูสิ่งที่คุณบันทึกไว้ได้
+                </div>
+
+                <div id="tb_4" class="tabs_content-items tb_4">
+                    มีผู้แท็ก
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
